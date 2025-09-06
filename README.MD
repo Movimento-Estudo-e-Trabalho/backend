@@ -34,6 +34,18 @@ sudo pacman -S git seahorse
 
 Após instalados esses pacotes, você perceberá que um novo programa vai aparecer no seu *menu de aplicativos*. Ele pode se chamar **Passwords and keys** ou **Senhas e chaves** dependendo do idioma configurado.
 
+## Criando uma nova chave via interface gráfica
+Ao abrir o programa senhas e chaves, vamos adicionar uma nova chave de ssh clicando no botão **+** superior direito e selecionando a opção **chave de ssh**
+
+![iniciando a criacao da chave](src/img/tutorial/iniciando_criacao_da_chave_ssh.png)
+
+Após isso, precisamos definir uma descrição para a nossa chave. Também podemos alterar o tipo de chave e a força da chave, mas para nosso exemplo o padrão será suficiente.
+
+![gerando a chave](src/img/tutorial/salvando_chave_ssh.png)
+
+Será solicitado uma senha para a chave, e uma confirmação da mesma logo em seguida. Após isso, podemos conferir se tudo deu certo se nossa chave criada aparecer na tela inicial.
+
+![mostrando a chave criada na tela inicial](src/img/tutorial/demonstrando_chave_ssh_criada.png)
 
 ## Configurando o projeto no Windows
 
