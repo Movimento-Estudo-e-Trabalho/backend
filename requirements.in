@@ -18,3 +18,4 @@ pip-system-certs
 
 # Logging e monitoramento
 loguru
+asgi-correlation-id
