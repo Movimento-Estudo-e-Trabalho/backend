@@ -1,4 +1,9 @@
+# Basico para rodar o sistema
 fastapi
 uvicorn
 pydantic
 sqlalchemy
+
+
+# Certificação do sistema
+pip-system-certs
