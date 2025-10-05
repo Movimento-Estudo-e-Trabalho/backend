@@ -1,9 +1,20 @@
 # Basico para rodar o sistema
 fastapi
 uvicorn
-pydantic
-sqlalchemy
 
+# Configuração e ambientação
+pydantic
+pydantic-settings
+
+# HTTP e utilidade gerais do server
+httpx
+requests
+
+# Database
+sqlalchemy
 
 # Certificação do sistema
 pip-system-certs
+
+# Logging e monitoramento
+loguru
