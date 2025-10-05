@@ -14,6 +14,10 @@ h11==0.16.0
     # via uvicorn
 idna==3.10
     # via anyio
+pip==25.2
+    # via pip-system-certs
+pip-system-certs==5.2
+    # via -r requirements.in
 pydantic==2.11.10
     # via
     #   -r requirements.in
