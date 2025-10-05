@@ -6,8 +6,6 @@ anyio==4.11.0
     # via starlette
 click==8.3.0
     # via uvicorn
-colorama==0.4.6
-    # via click
 fastapi==0.118.0
     # via -r requirements.in
 greenlet==3.2.4
