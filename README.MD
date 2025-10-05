@@ -37,39 +37,39 @@ Após instalados esses pacotes, você perceberá que um novo programa vai aparec
 ## Criando uma nova chave via interface gráfica
 Ao abrir o programa senhas e chaves, vamos adicionar uma nova chave de ssh clicando no botão **+** superior direito e selecionando a opção **chave de ssh**
 
-![iniciando a criacao da chave](src/img/tutorial/iniciando_criacao_da_chave_ssh.png)
+![iniciando a criacao da chave](static/images/tutorial/iniciando_criacao_da_chave_ssh.png)
 
 Após isso, precisamos definir uma descrição para a nossa chave. Também podemos alterar o tipo de chave e a força da chave, mas para nosso exemplo o padrão será suficiente.
 
-![gerando a chave](src/img/tutorial/salvando_chave_ssh.png)
+![gerando a chave](static/images/tutorial/salvando_chave_ssh.png)
 
 Será solicitado uma senha para a chave, e uma confirmação da mesma logo em seguida. Após isso, podemos conferir se tudo deu certo se nossa chave criada aparecer na tela inicial.
 
-![mostrando a chave criada na tela inicial](src/img/tutorial/demonstrando_chave_ssh_criada.png)
+![mostrando a chave criada na tela inicial](static/images/tutorial/demonstrando_chave_ssh_criada.png)
 
 ## inserindo a chave no github
 
 Antes de clonar o repositório na nossa máquina é nescessário adicionar a chave que criamos no github. Para isso, vamos clicar na chave e em seguida clicar no botão de copiar
 
-![copiando chave ssh](src/img/tutorial/copiando_chave_ssh.png)
+![copiando chave ssh](static/images/tutorial/copiando_chave_ssh.png)
 
 Agora, para adicionarmos a chave no github acessamos o link https://github.com/settings/keys e clicamos no botão "New SSH key"
 
-![adicionando nova chave no github](src/img/tutorial/adicionando_nova_chave_github.png)
+![adicionando nova chave no github](static/images/tutorial/adicionando_nova_chave_github.png)
 
 Na próxima tela, adicionamos uma descriçao para nossa chave e colamos a chave copiada no campo "Key"
 
-![colando chave no github](src/img/tutorial/colando_chave_github.png)
+![colando chave no github](static/images/tutorial/colando_chave_github.png)
 
 Por fim, podemos ver nossa nova chave na próxima tela
 
-![demonstrando a chave no github](src/img/tutorial/demonstrando_chave_adicionada_github.png)
+![demonstrando a chave no github](static/images/tutorial/demonstrando_chave_adicionada_github.png)
 
 ## Clonando o repositório na máquina local
 
 Agora, podemos clonar o [repositório remoto](https://github.com/Movimento-Estudo-e-Trabalho/backend) para nossa máquina através do github clicando no botão "Code" e copiando o link presente na aba "SSH"
 
-![copiando link ssh](src/img/tutorial/copiando_link_ssh.png)
+![copiando link ssh](static/images/tutorial/copiando_link_ssh.png)
 
 Finalmente, podemos abrir a pasta onde desejamos clonar o repositório pelo terminal com o comando
 
