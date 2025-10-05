@@ -47,12 +47,55 @@ Será solicitado uma senha para a chave, e uma confirmação da mesma logo em se
 
 ![mostrando a chave criada na tela inicial](src/img/tutorial/demonstrando_chave_ssh_criada.png)
 
-## Configurando o projeto no Windows
+## inserindo a chave no github
 
-[TODO]
+Antes de clonar o repositório na nossa máquina é nescessário adicionar a chave que criamos no github. Para isso, vamos clicar na chave e em seguida clicar no botão de copiar
+
+![copiando chave ssh](src/img/tutorial/copiando_chave_ssh.png)
+
+Agora, para adicionarmos a chave no github acessamos o link https://github.com/settings/keys e clicamos no botão "New SSH key"
+
+![adicionando nova chave no github](src/img/tutorial/adicionando_nova_chave_github.png)
+
+Na próxima tela, adicionamos uma descriçao para nossa chave e colamos a chave copiada no campo "Key"
+
+![colando chave no github](src/img/tutorial/colando_chave_github.png)
+
+Por fim, podemos ver nossa nova chave na próxima tela
+
+![demonstrando a chave no github](src/img/tutorial/demonstrando_chave_adicionada_github.png)
+
+## Clonando o repositório na máquina local
+
+Agora, podemos clonar o [repositório remoto](https://github.com/Movimento-Estudo-e-Trabalho/backend) para nossa máquina através do github clicando no botão "Code" e copiando o link presente na aba "SSH"
+
+![copiando link ssh](src/img/tutorial/copiando_link_ssh.png)
+
+Finalmente, podemos abrir a pasta onde desejamos clonar o repositório pelo terminal com o comando
+
+~~~ sh
+cd /caminho/da/pasta/ # Substitua pelo caminho desejado
+
+git clone git@github.com:Movimento-Estudo-e-Trabalho/backend.git
+~~~
+
+A pasta "Backend" aparecerá no seu gerenciador de arquivos.
+
+## TODO Configurando o projeto no Windows
+
+...
 
 
 # Rodando o Projeto
+
+Abrimos um terminal dentro da pasta onde clonamos o repositório
+
+~~~ sh
+cd /pasta/onde/o/repositorio/foi/clonado
+~~~
+
+e seguimos os passos abaixo:
+
 1 - Criar um ambiente virtual
 
 ~~~ bash
