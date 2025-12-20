@@ -33,11 +33,7 @@ class Settings(BaseSettings):
     backend_url: str = ""
 
     # Configurações Postgres
-    postgres_user: str = ""
-    postgres_password: str = ""
-    postgres_host: str = ""
-    postgres_port: str = ""
-    postgres_db: str = ""
+    postgres_url: str = ""
 
     # URL em que o frontend correspondente está deployado
     frontend_url: str = ""

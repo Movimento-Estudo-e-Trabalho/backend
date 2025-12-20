@@ -4,6 +4,7 @@ import sys
 from loguru import logger
 from asgi_correlation_id.context import correlation_id
 from asgi_correlation_id import CorrelationIdMiddleware
+from src.models.postgres import client
 
 
 def configure_logging() -> None:
@@ -49,3 +50,15 @@ app.add_middleware(CorrelationIdMiddleware)
 @app.get("/")
 def healthy():
     return {"status": "healthy"}
+
+
+@app.post("/pessoas")
+def add_user():
+    client.add_user("Daniel", "123123", "123123", "daniel@email.com")
+    return "Done!"
+
+
+@app.get("/pessoas")
+def pessoas():
+    users = client.get_users()
+    return [user for user in users]

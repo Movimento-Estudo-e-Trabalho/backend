@@ -1,5 +1,5 @@
 run:
-	uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+	uvicorn src.app:app --host 0.0.0.0 --port 8000 --reload
 
 compile:
 	uv pip compile requirements.in > requirements.txt
@@ -7,9 +7,3 @@ compile:
 
 install:
 	uv pip install -r requirements.txt -r requirements-dev.txt
-
-db:
-	docker compose up -d
-
-db-stop:
-	docker compose down
