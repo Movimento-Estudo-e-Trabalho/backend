@@ -7,7 +7,6 @@ from core import config
 
 engine = create_engine(config.settings.postgres_url, echo=True)
 
-
 def add_user(name: str, cpf: str, phone: int, email: str):
     with Session(engine) as session:
         user = Users(
